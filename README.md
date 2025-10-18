@@ -1,5 +1,11 @@
 # LangExtract AWS Lambda 服务
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/downloads/)
+[![AWS Lambda](https://img.shields.io/badge/AWS-Lambda-orange.svg)](https://aws.amazon.com/lambda/)
+[![Docker](https://img.shields.io/badge/Docker-Enabled-2496ED.svg)](https://www.docker.com/)
+[![LangExtract](https://img.shields.io/badge/LangExtract-1.0.9+-green.svg)](https://github.com/google/langextract)
+
 这是一个基于 AWS Lambda 和 Docker 的 LangExtract 信息提取服务，通过 API Gateway HTTP API 暴露为 REST API，供 Next.js 或其他应用调用。
 
 ## 项目简介
@@ -345,19 +351,51 @@ aws logs tail /aws/lambda/langextract-function --follow --region us-east-1
 - [Gemini API 文档](https://ai.google.dev/docs)
 - [完整部署指南](./AWS_LAMBDA_部署指南.md)
 
+## 贡献
+
+欢迎贡献！请查看 [贡献指南](./CONTRIBUTING.md) 了解如何参与。
+
+### 如何贡献
+
+1. Fork 本仓库
+2. 创建您的特性分支 (`git checkout -b feature/AmazingFeature`)
+3. 提交您的更改 (`git commit -m 'feat: 添加某个很棒的功能'`)
+4. 推送到分支 (`git push origin feature/AmazingFeature`)
+5. 开启一个 Pull Request
+
+详细的贡献指南请参考 [CONTRIBUTING.md](./CONTRIBUTING.md)。
+
 ## 许可证
 
-本项目代码采用 MIT 许可证。
+本项目采用 MIT 许可证 - 查看 [LICENSE](./LICENSE) 文件了解详情。
 
-LangExtract 采用 Apache 2.0 许可证。
+**注意**: 本项目使用了以下开源项目：
+- [LangExtract](https://github.com/google/langextract) - Apache 2.0 许可证
 
 ## 支持
 
-如有问题，请：
+### 获取帮助
+
+- 📖 查看 [完整部署指南](./AWS_LAMBDA_部署指南.md)
+- 🐛 [报告 Bug](../../issues)
+- 💡 [请求新功能](../../issues)
+- 💬 [参与讨论](../../discussions)
+
+### 常见问题
 
 1. 查看 [部署指南](./AWS_LAMBDA_部署指南.md)
 2. 检查 CloudWatch 日志
-3. 参考常见问题排查部分
+3. 参考 [常见问题排查部分](./AWS_LAMBDA_部署指南.md#常见问题排查)
+
+## 致谢
+
+- [LangExtract](https://github.com/google/langextract) - 强大的信息提取库
+- [AWS Lambda](https://aws.amazon.com/lambda/) - 无服务器计算平台
+- 所有的贡献者和使用者
+
+## 星标历史
+
+如果这个项目对您有帮助，请给它一个 ⭐️！
 
 ---
 

@@ -33,6 +33,12 @@ env/
 
 # AWS
 .aws-sam/
+*.pem
+*.key
+trust-policy.json
+test-event.json
+response.json
+.aws/
 
 # IDE
 .vscode/
